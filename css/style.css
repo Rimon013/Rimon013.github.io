@@ -86,6 +86,10 @@ p{
     padding-bottom: 180px;
     margin:20px;
 }
+svg:hover{
+    background-color: #ef744b;
+    border-radius: 10px;
+}
 .logo{
     height: 80px;
     margin: 30px;
@@ -136,6 +140,7 @@ hr{
 .project-link{
     text-decoration: none;
     color: #ef744b;
+    
 }
 .project-link:hover{
     color:#808080
