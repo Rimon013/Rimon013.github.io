@@ -11,10 +11,13 @@ section{
     height: 100vh;
     font-size: 40px;
     color: white;
+    
 }
 footer{
     background-color: black;
-    height: 500px;
+    color: white;
+    padding: 80px ;
+    text-align: center;
 }
 nav{
     display: flex;
@@ -27,6 +30,7 @@ ul{
     justify-content: space-around;
     font-size: 30px;
 }
+
 li{
     /*width: 200px;*/
     text-decoration: none;
@@ -43,6 +47,10 @@ p{
     font-weight: 300;
     font-size: 30px;
 }
+.subtext{
+    font-size: 15px;
+    font-weight: 300;
+}
 .hero-sec{
     margin-left: 80px;
     margin-bottom: 180px;
@@ -57,6 +65,9 @@ p{
     font-size: 30px;
     padding-top: 5px;
     margin-top: 20px;
+}
+.exit-img{
+    display: none;
 }
 .hero-area{
     display: flex;
@@ -85,6 +96,7 @@ p{
     display: flex;
     justify-content: space-around;
     padding: 80px;
+    
 }
 .sub-section-alternate{
     display: flex;
@@ -105,9 +117,86 @@ p{
     width: 300px;
     height: 500px;
     box-shadow: 5px 5px 20px rgb(197, 191, 191);
-    
+    margin: 10px;
 }
 .project-container{
     display: flex;
     justify-content: space-around;
+}
+.project-image{
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 125px;
+    height: 250px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.project-link{
+    text-decoration: none;
+    color: #ef744b;
+}
+.project-link:hover{
+    color:#808080
+}
+.an{
+    text-decoration: none;
+    color: white;
+
+}
+.an:hover{
+    color:#808080;
+    
+}
+.hamburger{
+    display: none;
+}
+.hamburger:focus{
+    outline: 0;
+}
+@media only screen and (max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .exit-img{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+        border:0;
+        background-color: transparent;
+    }
+    ul{
+        display: none;
+    }
+    ul.show{
+        display: block;
+    }
+    ul{
+        
+            position: fixed;
+            z-index:999;
+            width: 30%;
+            right: 0;
+            top: 0;
+            background: #20272E;
+            height: 150px;
+            padding: 1em;
+            margin-right: 10px;
+            
+    }
+    .exit-img{
+        float: right;
+        margin: .5em;
+        cursor: pointer;
+    }
+    .hero-area{
+        margin-top: 20px;
+    }
+    .sub-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
