@@ -1,0 +1,68 @@
+.First{
+    //margin-top: 6rem;
+    margin-bottom: 6rem;
+    .helmet{
+        padding: 0rem 17rem;
+    }
+    &__img{
+        img{
+            max-width: 100%;
+            width: 80rem;
+            height: 23rem;
+            
+            
+            
+        }
+    }
+    &__text{
+        line-height: 1.4rem;
+        margin-left: 5.9rem;
+        h1{
+            margin: 0;
+        
+            color:rgb(39, 37, 37);
+            font-size: 1.6rem;
+            font-weight: 800;
+            
+        }
+        p{
+            color: gray;
+            font-size: 11px;
+            text-align: justify;
+            font-weight: 500;
+        }
+        
+        
+        .red{
+            margin-top: 2rem;
+            color: white;
+             background: red;
+             padding: 1rem 1.7rem;
+            border: none;
+            transition: color 600ms ease-in-out;
+            &:hover{
+             color: red;
+            background: white;
+            border: 1px solid red;
+            cursor: pointer;
+            transition: background 900ms ease-in-out;
+            }
+        }
+        .white{
+            
+            color: red;
+            background: white;
+            padding: 1rem 1.7rem;
+            border: 1px solid red;
+            cursor: pointer;
+            transition: color 600ms ease-in-out;
+            &:hover{
+                color:white;
+                background:red;
+                border: none;
+                cursor: pointer;
+                transition: background 900ms ease-in-out;
+            }
+        }
+    }
+}

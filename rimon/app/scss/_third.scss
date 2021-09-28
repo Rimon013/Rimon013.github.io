@@ -1,0 +1,62 @@
+.third{
+    margin-bottom: 6rem;
+    .check{
+        padding: 0 9rem;
+    }
+    &__certificate{
+       text-align: center;
+       img{ 
+           width: auto;
+           max-width: 100%;
+           height: 300px;
+       }
+       h3{
+           margin-top: 2rem;
+           margin-bottom: 2rem;
+           color: #1d1c1c;
+           font-weight: 800;
+       }
+       p{
+            color: #1d1c1c;
+            font-size: 14px;
+            line-height: 1.5rem;
+       }
+
+    }
+    &__calibration{
+        text-align: center;
+        padding-left: 7rem;
+        img{
+            width: auto;
+            max-width: 100%;
+            height: 300px;
+        }
+        h3{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            color: #1d1c1c;
+            font-weight: 800;
+        }
+        p{
+           // margin-bottom: 2rem;
+             color: #1d1c1c;
+             font-size: 14px;
+             line-height: 1.5rem;
+        }
+    }
+    .click{
+        margin-top: 2rem;
+            color: white;
+             background: red;
+             padding: 1rem 1.7rem;
+            border: none;
+            transition: color 600ms ease-in-out;
+            &:hover{
+             color: red;
+            background: white;
+            border: 1px solid red;
+            cursor: pointer;
+            transition: background 900ms ease-in-out;
+            }
+    }
+}
