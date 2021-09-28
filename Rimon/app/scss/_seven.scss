@@ -1,0 +1,25 @@
+.seven{
+
+    background: red;
+    .signing{
+    padding: 1rem 4rem;
+    text-align: center;
+    }
+    p{
+        margin: 0;
+    }
+    button{
+           color: white;
+            padding: 1rem 1.7rem;
+            background: red;
+            border: 2px solid white;
+            transition: color 600ms ease-in-out;
+            &:hover{
+            color: red;
+            background: white;
+            border: 2px solid red;
+            cursor: pointer;
+            transition: background 900ms ease-in-out;
+            }
+    }
+}
